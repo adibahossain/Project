@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sain Destinations</title>
         <link rel="stylesheet" href="style.css">
+
     </head>
     <body>
-        <header>
+       
             <h1 id="PageTitle">Sain Destinations</h1>
             <nav class="navbar">
                 <ul>
@@ -14,19 +17,24 @@
                     <li><a href="about.html">About</a></li>
                 </ul>
             </nav>
-        </header>
+
         <main>
             <div class="videos" >
                 <video autoplay muted loop>
                     <source src="Homepage.mp4" type="video/mp4">
                 </video>
             </div>
+            <div id="map"></div>
         
         </main>
     <footer style= "background-color: rgb(202, 219, 196) ">
             <hr>
             &copy; 2025 copyright reserved<br>
             <a href="adibahossainn@gmail.com">adibahossainn@gmail.com</a>
+            <script src = "travel.js"></script>
+            <script async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmUI4QQxFHB-D78ui9j7hJrJuI8gmL7i0&loading=async&callback=initMap">
+            </script>
         </footer>
     </body>
 

@@ -1,5 +1,6 @@
-Body{
-    margin: 0px;
+body{
+    position: relative;
+
 }
 
 #PageTitle{
@@ -28,17 +29,19 @@ Body{
 
     list-style-type:none;
     background-color: rgb(202, 219, 196);
-    padding-left: 170px;
-    margin-left: 450px;
-    margin-right: 450px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
     overflow: hidden;
+
 }
 
 .navbar a{
     color: white;
     text-decoration: none;
     padding: 15px;
-    display: block;
+    margin: auto;
+    display: inline-block;
     text-align: center;
 }
 
@@ -48,4 +51,8 @@ Body{
 .navbar li{
     float: left;
 
+}
+#map{
+    height: 30vh;
+    width: 50vh;  
 }
