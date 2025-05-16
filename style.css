@@ -61,3 +61,12 @@ body{
     font-size: 45px;
     color: #10401d;
 }
+.gallery{
+
+    display: inline-block;
+    margin: 5px;
+}
+map{
+
+    margin: auto;
+}
