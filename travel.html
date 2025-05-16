@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sain Destinations</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+        <link rel="stylesheet" href="style.css">     
 
     </head>
     <body>
@@ -24,18 +25,20 @@
                     <source src="Homepage.mp4" type="video/mp4">
                 </video>
             </div>
-            <div id="map"></div>
+            <div >
+                <h1 id="recent">Recent Destinations</h1>
+            </div>
+            <div id="map" style="height: 400px; width: 100%;"></div>
+
         
         </main>
     <footer style= "background-color: rgb(202, 219, 196) ">
             <hr>
             &copy; 2025 copyright reserved<br>
             <a href="adibahossainn@gmail.com">adibahossainn@gmail.com</a>
-            <script src = "travel.js"></script>
-            <script async
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmUI4QQxFHB-D78ui9j7hJrJuI8gmL7i0&loading=async&callback=initMap">
-            </script>
         </footer>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <script src = "travel.js"></script>
     </body>
 
 

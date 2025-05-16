@@ -1,17 +1,9 @@
 
-let map;
+const map = L.map('map').setView([3,3], 2);
 
-function initMap(){
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
 
-    map = new google.maps.Map(document.getElementById("map"),{
-
-        center: {lat: 47.559, lng: 10.378},
-        Zoom: 2,
-        minZoom: 2,
-        maxZoom: 18,
-       
-  
-    });
-}
-
-window.initMap = initMap;
+//<a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
