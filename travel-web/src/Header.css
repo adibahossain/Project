@@ -1,0 +1,41 @@
+.page-title{
+    font-size: 100px;
+    position: relative;
+    text-align: center;
+    color: #10401d;
+}
+
+.navbar{
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(202, 219, 196);
+    border-top: 1px solid rgb(202, 219, 196);
+}
+.navbar ul{
+
+    list-style-type:none;
+    margin: auto;
+    padding-left: 0px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: rgb(44, 53, 41);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    margin: auto;
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+ 
+}
+
+.navbar a:hover{
+    background-color: rgba(13, 56, 28, 0.266);
+}
+.navbar li{
+    float: left;
+    
+}
