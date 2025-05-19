@@ -10,6 +10,7 @@ function Header(){
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to= "/destinations">Destinations</Link></li>
+                    <li><Link to= "/maps">Map</Link></li>
                     <li><Link to= "/about">About</Link></li>
     
                 </ul>
@@ -19,3 +20,4 @@ function Header(){
 }
 
 export default Header
+
