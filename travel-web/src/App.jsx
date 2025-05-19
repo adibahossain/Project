@@ -6,9 +6,8 @@ import './index.css';
 import Destinations from './Destinations'
 import {Routes, Route} from "react-router-dom";
 //import Map from './Map'
-//import About from './About'
+import About from './About'
 //<Routes path="/map" element={<Map />} />
-//<Routes path="/about" element={<About/>} />
 
 function App(){
 
@@ -19,6 +18,7 @@ function App(){
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/destinations" element={<Destinations />} />
+        <Route path="/about" element={<About/>} />
       </Routes>
     <Footer></Footer>
 

@@ -21,21 +21,21 @@ function Home(){
 
                 <div className="gallery">
                     <a target="_blank" href="thailand.jpeg">
-                        <img src= {thaiPic} alt="thailand" width="200"></img>
+                        <img src= {thaiPic} alt="thailand" ></img>
                     </a>
                     <div className="description"> Thailand</div>
                 </div>
 
                 <div className="gallery">
                     <a target="_blank" href="malaysia.jpeg">
-                    <img src={malayPic} alt="malaysia" width="200"></img>
+                    <img src={malayPic} alt="malaysia" ></img>
                     </a>
                     <div className="description"> Malaysia</div>
                 </div>
 
                 <div className="gallery">
                     <a target="_blank" href="japan.jpg">
-                        <img src={japanPic} alt="thailand" width="200"></img>
+                        <img src={japanPic} alt="thailand"></img>
                     </a>
                     <div className="description">Japan</div>
                 </div>
