@@ -94,8 +94,15 @@ transition: all 1.1s;
 
 .footer{
 
-    position: relative;
+    position: static;
     left: 0;
     bottom: 0;
+}
+.mapsTitle{
+
+    font-size: 70px;
+    position: relative;
+    text-align: center;
+    color: #10401d;
 
 }
